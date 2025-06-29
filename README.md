@@ -32,34 +32,34 @@ We applied **Hierarchical Clustering** and **Two-Step Clustering** using SPSS to
 ### 1. **Hierarchical Clustering**
 - Method: **Ward’s Method**
 - Distance Metric: **Squared Euclidean**
-- Output: [Dendrogram](Dendogram.png)
+- Output: [Dendrogram](images/Dendogram.png)
 
 📌 **Result:**
 - 4 clusters identified
 - Visual splits observed in dendrogram at sharp linkage jumps
 
-![Dendrogram](Dendogram.png)
+![Dendrogram](images/Dendogram.png)
 
 🔢 **Proximity Matrix (Top View)**  
 (Excerpt from squared Euclidean distance between select cases)
 
-![Proximity Matrix](Proximity_matrix.png)
+![Proximity Matrix](images/Proximity_matrix.png)
 
 ---
 
 ### 2. **Two-Step Clustering**
 - Distance: **Euclidean**
 - Auto-clustering: Enabled
-- Output: [Cluster Quality](Cluster_quality.png), [Model Summary](Model_summary.png)
+- Output: [Cluster Quality](images/Cluster_quality.png), [Model Summary](images/Model_summary.png)
 
 📈 **Cluster Quality:**
 - Silhouette Score: ~0.4 (**Fair**)
 
-![Cluster Quality](Cluster_quality.png)
+![Cluster Quality](images/Cluster_quality.png)
 
 📊 **Model Summary:**
 
-![Model Summary](Model_summary.png)
+![Model Summary](images/Model_summary.png)
 
 ---
 
@@ -77,7 +77,7 @@ We applied **Hierarchical Clustering** and **Two-Step Clustering** using SPSS to
 📋 **Case Processing Summary**  
 All 425 records included and processed:
 
-![Case Summary](Case_processing_summary.png)
+![Case Summary](images/Case_processing_summary.png)
 
 ---
 
@@ -94,8 +94,7 @@ All 425 records included and processed:
 
 - `data.xlsx` – Raw customer data  
 - `cluster.docx` – Detailed report  
-- `index.html` – (Optional) Interactive visualization  
-- `.png` files – SPSS chart exports
+- `images/` – SPSS chart exports
 
 ---
 
@@ -106,4 +105,3 @@ This analysis highlights the value of unsupervised machine learning in marketing
 ---
 
 > 🚀 *Built with SPSS, Excel, and GitHub to showcase real-world data segmentation in financial services.*
-
